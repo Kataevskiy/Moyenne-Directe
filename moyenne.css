@@ -1,0 +1,35 @@
+.rang, .rangNote {
+    width: 100px;
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.average, .averageNote {
+    width: 100px;
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.hiddenRow {
+    border: 0px !important;
+}
+
+.mainAverageText {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 100px;
+    background-color: #0f8fd1 !important;
+    color: #fff;
+    font-weight: 700;
+}
+
+.fixed {
+    width: 100px;
+}
+
+.mainAverageText, .mainAverageNote {
+    border-bottom: 1px solid #c3c3c3 !important;
+    border-left: 2px solid #e2e1e1 !important;
+    border-right: 2px solid #e2e1e1 !important;
+    text-align: center;
+    vertical-align: middle !important;
+}

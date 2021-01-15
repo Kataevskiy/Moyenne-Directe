@@ -1,0 +1,35 @@
+{
+    "name": "Moyenne Directe",
+    "version": "0.3.0",
+    "description": "Extenion Chrome pour afficher les moyennes et le rang sur Ecole Directe",
+    "permissions": [
+        "https://www.ecoledirecte.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.ecoledirecte.com/*"
+            ],
+            "js": [
+                "content_script.js"
+            ],
+            "css": [
+                "moyenne.css"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "main.js"
+    ],
+    "browser_action": {
+        "default_icon": {
+            "128": "images/logo128.png"
+        }
+    },
+    "icons": {
+        "32": "images/logo32.png",
+        "48": "images/logo48.png",
+        "128": "images/logo128.png"
+    },
+    "manifest_version": 2
+}
